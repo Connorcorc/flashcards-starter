@@ -1,71 +1,58 @@
 # FlashCards Starter Kit
 
-## Fork This Repo
+## Table of Contents
+  - [Introduction](#introduction)
+  - [Technologies](#technologies)
+  - [Features](#features)
+  - [Illustrations](#illustrations)
+  - [Deployed Page](#deployed-page)
+  - [Possible Future Extensions](#possible-future-extensions)
+  - [Set Up](#set-up)
+  - [Organizational Resources](#organizational-resources)
+  - [Sources](#sources)
+  - [Contributors](#contributors)
+  - [Project Specs](#project-specs)
 
-On the top right corner of this page, click the **Fork** button.
+## Introduction
+  - The purpose of this project was to create a game to be run inside the terminal. The game pulls information from a data base of cards, and then tests the player knowledge by asking them questions and giving an option of choosing from multiple choice answers.
 
-## Setup
-
-Clone down the forked repo (from your GitHub). Since you don't want to name your project "flashcards-starter", you can use an optional argument when you run `git clone` (you replace the `[...]` with the terminal command arguments):
-
-```bash
-git clone [remote-address] [what you want to name the repo]
-```
-
-Once you have cloned the repo, change into the directory and install the library dependencies. Run:
-
-```bash
-npm install
-```
-
-To verify that it is setup correctly, run `npm test` in your terminal. You should have 5 pending tests in your `Card` test file that show up.
-
-Running `node index.js` from the root of your project should result in the following message being displayed in your terminal: 
-
-```bash
-Your project is running...
-```
-
-*Note that you will not need to you run your server until you are instantiating your `Game` class in Iteration 3. Prior to that, you should be using TDD to drive your code. You should check the functionality of your application by running your tests via `npm test`.*
+## Technologies
+  - Javascript
+  - TDD
+  - Mocha
+  - Chai
 
 
-## Where to Add Your Code
+## Illustrations
+  ![Flashcards](https://user-images.githubusercontent.com/50641779/186776091-0d50981e-e30c-4623-80cd-24a3de53a4f9.png)
 
-### JavaScript
+## Features
+- Asks user a question
+- Provides multiple options to choose as an answer
+- Calculates total correct via percentage upon game completion.
 
-**Create all of your feature code files in the `src` directory.**
+## Deployed Page
 
-We will be using the `module.exports` and `require` syntax to share code across files.
+## Possible Future Extensions
+  - A login page would be super cool, if it were responsive in a sense of allowing users login to be saved/recipe ideas they like to be stored within their page.
+  - Adding in transitions via CSS would have appreciated.
 
-## How to View Your Code in Action
+## Set Up
 
-Once you are working through Iteration 3, you will want to start your server to test your functionality.
-In the terminal, run:
-
-```bash
-node index.js
-```
-
-When the game is functioning appropriately, you will be prompted for each question, have the opportunity to select an answer, and will be given feedback. You will be able to play through the entire deck of cards:
-
-![flash cards example gif](https://media.giphy.com/media/1zkb1q58eTiTH6D7wc/giphy.gif)
-
----
-
-## Test Files Organization
-
-Similar to feature code, your test code needs to be put in a specific place for it to run successfully.
-
-**Put all of your test files in the `test` directory.** As a convention, all test filenames should end with `-test.js`. For instance: `Round-test.js`.
-
-## Running Your Tests
-
-Run your test suite using the command:
-
-```bash
-npm test
-```
-
-The test results will output to the terminal.
+1. Fork this repo  
+2. Clone the repo to your local machine
+3. Run npm install inside the directory
+4. Run node index.js to start the game
 
 
+
+## Sources
+  - [MDN](http://developer.mozilla.org/en-US/)
+
+
+## Contributors
+  - [Connor Corcoran](https://github.com/JDeLoach03)
+
+
+## Project Specs
+  - The project spec & rubric can be found [here](https://frontend.turing.edu/projects/flash-cards.html)
