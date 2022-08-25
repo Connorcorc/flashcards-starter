@@ -31,12 +31,6 @@
 - Provides multiple options to choose as an answer
 - Calculates total correct via percentage upon game completion.
 
-## Deployed Page
-
-## Possible Future Extensions
-  - A login page would be super cool, if it were responsive in a sense of allowing users login to be saved/recipe ideas they like to be stored within their page.
-  - Adding in transitions via CSS would have appreciated.
-
 ## Set Up
 
 1. Fork this repo  
