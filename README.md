@@ -44,7 +44,7 @@
 
 
 ## Contributors
-  - [Connor Corcoran](https://github.com/JDeLoach03)
+  - [Connor Corcoran](https://github.com/Connorcorc)
 
 
 ## Project Specs
